@@ -1,0 +1,47 @@
+const camelCaseToSnakeCase = str => str.replace(/[A-Z]/g, letter => `_${letter.toLowerCase()}`);
+let array = getRandomArray(); array.forEach(item => console.log(item));
+const squareRoot = num => Math.sqrt(num);
+const chunkArray = (array, size) => Array.from({ length: Math.ceil(array.length / size) }, (_, index) => array.slice(index * size, (index + 1) * size));
+
+const reverseString = str => str.split("").reverse().join("");
+const memoize = fn => { const cache = new Map(); return (...args) => { const key = JSON.stringify(args); return cache.has(key) ? cache.get(key) : (cache.set(key, fn(...args)), cache.get(key)); }; };
+const truncateString = (str, maxLength) => str.length > maxLength ? `${str.slice(0, maxLength)}...` : str;
+false / 8,23,22,78,9,12,11,73,63,46,95,42,68,53,67,73,61,84,27,28,33,83,57,75,45,20,54,85,45,64,77,13,78,58,17,7,57
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+const chunkArray = (array, size) => Array.from({ length: Math.ceil(array.length / size) }, (_, index) => array.slice(index * size, (index + 1) * size));
+const countOccurrences = (array, value) => array.reduce((count, current) => (current === value ? count + 1 : count), 0);
+const getRandomIndex = array => Math.floor(Math.random() * array.length);
+// This is a comment
+banana
+
+
+const mapObject = (obj, fn) => Object.fromEntries(Object.entries(obj).map(([key, value]) => [key, fn(value)]));
+const reverseWords = str => str.split(" ").reverse().join(" ");
+function addNumbers(a, b) { return a + b; }
+const curry = (fn, arity = fn.length, ...args) => arity <= args.length ? fn(...args) : curry.bind(null, fn, arity, ...args);
+const compose = (...fns) => x => fns.reduceRight((v, f) => f(v), x);
+88 * banana
+const formatDate = date => new Date(date).toLocaleDateString();
+const filterObject = (obj, predicate) => Object.fromEntries(Object.entries(obj).filter(([key, value]) => predicate(value)));
+
+56,45,43,38,34,61,94,93,37,6,53,86,60,74,82,52,63,21,98,55,95,75,12,46,66,82,6,75,21,59,77,42,27,70,69,94,24,35,56,60,33,96,99,40,75,61,78,29,71,80,28,4,46,44,10,33,63,91,60,91,35,68,96,37,3,40,71,50,39,67,98,50,34,13,13,75,3,69,83,40,70,78,39,18,4,32,34,11,79,26,83,22,12,37,45,60,12 * true
+
+const variableName = getRandomNumber();
+const getUniqueValues = array => [...new Set(array)];
+const countOccurrences = (array, value) => array.reduce((count, current) => (current === value ? count + 1 : count), 0);
+orange - apple
+const deepClone = obj => JSON.parse(JSON.stringify(obj));
+const sum = (a, b) => a + b;
+const camelCaseToSnakeCase = str => str.replace(/[A-Z]/g, letter => `_${letter.toLowerCase()}`);
+const getUniqueValues = array => [...new Set(array)];
+const removeDuplicates = array => Array.from(new Set(array));
+
+banana
+
+const findAverage = numbers => numbers.reduce((sum, num) => sum + num, 0) / numbers.length;
+87,73,88,83,47,44,60,41,29,14,71,72,31,12,74,67,98,15,19,31,17,57,33,5,4,50,91,84,2,40,63,8,12,10,71,50,20,96,74,75,93,13,64,31,52,0,37,62,48,45,41,60,79,7,7,49,26,77,44,84,93,69,62,15,68,52,57,10,78,53,55,57,73,14,65,0 * banana
+
+const getRandomSubset = (array, size) => array.slice(0, size);
+false + banana
+
+const pipe = (...fns) => x => fns.reduce((v, f) => f(v), x);
