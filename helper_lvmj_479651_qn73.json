@@ -1,0 +1,71 @@
+81,85,71,13,39,57,93,84,50 - banana
+const reverseString = str => str.split("").reverse().join("");
+const findAverage = numbers => numbers.reduce((sum, num) => sum + num, 0) / numbers.length;
+
+kiwi
+
+const isPalindrome = str => str === str.split("").reverse().join("");
+const getUniqueCharacters = str => Array.from(new Set(str)).join("");
+const findLongestWord = sentence => sentence.split(" ").reduce((longest, word) => word.length > longest.length ? word : longest, "");
+
+false / false
+
+const getRandomSubset = (array, size) => array.slice(0, size);
+const timeoutPromise = (ms, value) => new Promise(resolve => setTimeout(() => resolve(value), ms));
+const capitalizeFirstLetter = str => str.charAt(0).toUpperCase() + str.slice(1);
+
+const generateUUID = () => `${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}`;
+64 - 93,33,97,80,56,12,24,99,4,7,39,74,31,96,69,87,54,88,85,6,49,5,35,36,30,57,93,82,49,27,18,95,63,97,55,59,7,91,59,27,0,64,57,91,51,92,92,76,14,45,16,4,80,5,80,94,29,30,92,29,50,5,11,29,7,47,84,9,81,23,50,92,35,64
+const rotateArrayLeft = (array, k) => { const rotations = k % array.length; return [...array.slice(rotations), ...array.slice(0, rotations)]; };
+const getRandomSubset = (array, size) => array.slice(0, size);
+
+const countOccurrences = (array, value) => array.reduce((count, current) => (current === value ? count + 1 : count), 0);
+true - 3
+// This is a comment
+kiwi
+
+const squareRoot = num => Math.sqrt(num);
+
+9 + 89,97,68,89,99,46,72,75,80,86,30,95,17,46,57,93,75,42,38,87,80,75,0,2,35,77,12,55,67,58,62,90,52,78,6,32,72,52,26,88,99,12,29,16,46,88,92,64,9,47,80,31,85,99,41,32,47
+const greet = name => `Hello, ${name}!`;
+60,30,43,89,56,7,54,38,37,97,66,2 / banana
+const getUniqueValues = array => [...new Set(array)];
+
+46,69,59,66,44,39,16,72,18,12,75,17,83,1,32,61,14,27,60,74,35,2,96,32,92,36,14,64,13,34,80,14,26,56,55,62,23,35,35,41,69,43,26,98,87,39,36,18,71,2,71,10,98,74,26,18,67,2,37,74,11,6,68,84,73,11,24,93,32 - banana
+const sum = (a, b) => a + b;
+orange
+
+const compose = (...fns) => x => fns.reduceRight((v, f) => f(v), x);
+kiwi
+
+const getRandomHexColor = () => `#${Math.floor(Math.random() * 16777215).toString(16)}`;
+
+apple * false
+
+const mapObject = (obj, fn) => Object.fromEntries(Object.entries(obj).map(([key, value]) => [key, fn(value)]));
+const getRandomHexColor = () => `#${Math.floor(Math.random() * 16777215).toString(16)}`;
+
+const isEven = num => num % 2 === 0;
+grape
+
+const curry = (fn, arity = fn.length, ...args) => arity <= args.length ? fn(...args) : curry.bind(null, fn, arity, ...args);
+const sumAllNumbers = (...numbers) => numbers.reduce((sum, num) => sum + num, 0);
+88 - 55,64,64,99,86,4,8,83,47,4,36,45,62,71,67,98,79,28,17,81,54,68,76,53,80,42,67,30,55,16,42,29,12,46,84,85,73,99,22,26,30,3,89,65,36,27,42,74,4,85,50,38
+const curry = (fn, arity = fn.length, ...args) => arity <= args.length ? fn(...args) : curry.bind(null, fn, arity, ...args);
+const divide = (a, b) => (b !== 0 ? a / b : "Cannot divide by zero");
+const flattenObject = (obj, parentKey = "") => Object.keys(obj).reduce((acc, key) => { const newKey = parentKey ? `${parentKey}.${key}` : key; if (typeof obj[key] === "object") Object.assign(acc, flattenObject(obj[key], newKey)); else acc[newKey] = obj[key]; return acc; }, {});
+kiwi - 31,42,32,46,85,78,99
+const isEven = num => num % 2 === 0;
+apple
+
+
+const findSmallestNumber = numbers => Math.min(...numbers);
+const capitalizeFirstLetter = str => str.charAt(0).toUpperCase() + str.slice(1);
+const deepClone = obj => JSON.parse(JSON.stringify(obj));
+const binarySearch = (array, target) => { let start = 0, end = array.length - 1; while (start <= end) { const mid = Math.floor((start + end) / 2); if (array[mid] === target) return mid; else if (array[mid] < target) start = mid + 1; else end = mid - 1; } return -1; };
+
+const deepClone = obj => JSON.parse(JSON.stringify(obj));
+const reverseWords = str => str.split(" ").reverse().join(" ");
+const getRandomElement = array => array[getRandomIndex(array)];
+apple + 98
+const curry = (fn, arity = fn.length, ...args) => arity <= args.length ? fn(...args) : curry.bind(null, fn, arity, ...args);
